@@ -67,8 +67,8 @@ if page == "🏠 Home":
     """)
 
 elif page == "📊 Data Analysis":
-    st.header(":blue[Data Analysis Dashboard]")
-    
+    st.markdown("<h2 style='color:#1f77b4;'>📊 Data Analysis Dashboard</h2>", unsafe_allow_html=True)
+
     # Sample data for demo
     @st.cache_data
     def load_sample_data():
@@ -96,7 +96,7 @@ elif page == "📊 Data Analysis":
         st.bar_chart(status_counts)
 
 elif page == "🤖 Model Performance":
-    st.header(":red[Model Performance Comparison]")
+    st.markdown("<h2 style='color:#DC3545;'> Model Performance Comparison</h2>", unsafe_allow_html=True)
     
     # Model performance data
     performance_data = {
@@ -122,7 +122,8 @@ elif page == "🤖 Model Performance":
     st.success("🏆 **Best Model**: Ensemble with 94% accuracy!")
 
 elif page == "⚖️ Workload Balancer":
-    st.header(":blue[Intelligent Workload Balancer]")
+    
+    st.header(" 	#FF8C00 [Intelligent Workload Balancer]")
     
     # Workload data
     workload_data = {
