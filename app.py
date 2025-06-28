@@ -15,6 +15,8 @@ st.markdown("#### Intelligent Task Classification, Prioritization & Workload Bal
 
 # Sidebar navigation
 st.sidebar.title("Navigation")
+st.image("https://media4.giphy.com/media/58OujxlE7e19Mjv0gj/200w.gif?cid=6c09b952c82mh4dnadk3h7q6v9g21gm1dvtfr31lkpu918bl&ep=v1_gifs_search&rid=200w.gif&ct=g",
+            use_container_width=True, caption="AI at Work")
 page = st.sidebar.selectbox("Choose a page", [
     "🏠 Home",
     "🔮 Task Predictor"
@@ -25,24 +27,17 @@ page = st.sidebar.selectbox("Choose a page", [
 ])
 
 if page == "🏠 Home":
-    col1, col2 = st.columns([3, 1])
-    with col1:
     
-        col1, col2, col3, col4 = st.columns(4)
-        
-        with col1:
-            st.metric("Total Models", "5", "NB, SVM, RF, XGB, Ensemble")
-        with col2:
-            st.metric("Best Accuracy", "94%", "Ensemble Model")
-        with col3:
-            st.metric("Features Used", "110", "TF-IDF + Engineered")
-        with col4:
-            st.metric("Weeks Completed", "4", "Full Pipeline")
+    col1, col2, col3, col4 = st.columns(4)
+    
+    with col1:
+        st.metric("Total Models", "5", "NB, SVM, RF, XGB, Ensemble")
     with col2:
-        st.image(
-            "https://media4.giphy.com/media/58OujxlE7e19Mjv0gj/200w.gif?cid=6c09b952c82mh4dnadk3h7q6v9g21gm1dvtfr31lkpu918bl&ep=v1_gifs_search&rid=200w.gif&ct=g",
-            use_column_width=True,
-            caption="AI at Work")
+        st.metric("Best Accuracy", "94%", "Ensemble Model")
+    with col3:
+        st.metric("Features Used", "110", "TF-IDF + Engineered")
+    with col4:
+        st.metric("Weeks Completed", "4", "Full Pipeline")
             
     # Project timeline
     st.subheader("📅 Project Timeline")
