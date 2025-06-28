@@ -26,7 +26,7 @@ page = st.sidebar.selectbox("Choose a page", [
 ])
 
 if page == "🏠 Home":
-    
+    st.markdown("<h2 style='color:#6610f2;'>📌 Project Summary & Overview</h2>", unsafe_allow_html=True)
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
