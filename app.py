@@ -15,7 +15,7 @@ st.markdown("#### Intelligent Task Classification, Prioritization & Workload Bal
 
 # Sidebar navigation
 st.sidebar.title("Navigation")
-st.image("https://media4.giphy.com/media/58OujxlE7e19Mjv0gj/200w.gif?cid=6c09b952c82mh4dnadk3h7q6v9g21gm1dvtfr31lkpu918bl&ep=v1_gifs_search&rid=200w.gif&ct=g",
+st.sidebar.image("https://media4.giphy.com/media/58OujxlE7e19Mjv0gj/200w.gif?cid=6c09b952c82mh4dnadk3h7q6v9g21gm1dvtfr31lkpu918bl&ep=v1_gifs_search&rid=200w.gif&ct=g",
             use_container_width=True, caption="AI at Work")
 page = st.sidebar.selectbox("Choose a page", [
     "🏠 Home",
