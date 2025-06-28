@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Title
-st.title("🚀 Task Management AI System")
+st.title(":rainbow[🚀 Task Management AI System]")
 st.markdown("### Intelligent Task Classification, Prioritization & Workload Balancing")
 
 # Sidebar navigation
@@ -220,7 +220,7 @@ st.markdown(
     """
     <div style='text-align: center'>
         <p>🚀 Task Management AI System | Built with Streamlit | 
-        <a href='https://github.com/shridayal/task_management_ai'>View on GitHub</a></p>
+        <a href='https://github.com/Annieshilpha07/task_management_ai'>View on GitHub</a></p>
     </div>
     """, 
     unsafe_allow_html=True
