@@ -11,7 +11,7 @@ st.set_page_config(
 
 # Title
 st.title(":rainbow[🚀 Task Management AI System]")
-st.markdown("### Intelligent Task Classification, Prioritization & Workload Balancing")
+st.markdown("#### Intelligent Task Classification, Prioritization & Workload Balancing")
 
 # Sidebar navigation
 st.sidebar.title("Navigation")
