@@ -12,7 +12,7 @@ st.set_page_config(
 # Title
 st.title(":rainbow[🚀 Task Management AI System]")
 st.markdown("#### Intelligent Task Classification, Prioritization & Workload Balancing")
-st.write("----")
+st.markdown("---")
 
 # Sidebar navigation
 st.sidebar.title("Navigation")
@@ -96,7 +96,7 @@ elif page == "📊 Data Analysis":
         st.bar_chart(status_counts)
 
 elif page == "🤖 Model Performance":
-    st.header("Model Performance Comparison")
+    st.header(":red[Model Performance Comparison]")
     
     # Model performance data
     performance_data = {
@@ -122,7 +122,7 @@ elif page == "🤖 Model Performance":
     st.success("🏆 **Best Model**: Ensemble with 94% accuracy!")
 
 elif page == "⚖️ Workload Balancer":
-    st.header("Intelligent Workload Balancer")
+    st.header(":blue[Intelligent Workload Balancer]")
     
     # Workload data
     workload_data = {
@@ -151,7 +151,7 @@ elif page == "⚖️ Workload Balancer":
             st.info(f"✅ {row['Assignee']} has available capacity ({row['Utilization %']}%)")
 
 elif page == "🔮 Task Predictor":
-    st.header("AI Task Predictor")
+    st.markdown("<h2 style='color:#FF8C00;'>🔮 AI Task Predictor</h2>", unsafe_allow_html=True)
     st.markdown("Enter a task description to get AI-powered predictions!")
     
     # Task input form
