@@ -19,11 +19,10 @@ st.sidebar.image("https://media4.giphy.com/media/58OujxlE7e19Mjv0gj/200w.gif?cid
             use_container_width=True, caption="AI at Work")
 page = st.sidebar.selectbox("Choose a page", [
     "🏠 Home",
-    "🔮 Task Predictor"
+    "🔮 Task Predictor",
     "📊 Data Analysis", 
     "🤖 Model Performance",
-    "⚖️ Workload Balancer",
-    "🔮 Task Predictor"
+    "⚖️ Workload Balancer"
 ])
 
 if page == "🏠 Home":
