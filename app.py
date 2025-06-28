@@ -12,6 +12,7 @@ st.set_page_config(
 # Title
 st.title(":rainbow[🚀 Task Management AI System]")
 st.markdown("#### Intelligent Task Classification, Prioritization & Workload Balancing")
+st.write("----")
 
 # Sidebar navigation
 st.sidebar.title("Navigation")
@@ -66,7 +67,7 @@ if page == "🏠 Home":
     """)
 
 elif page == "📊 Data Analysis":
-    st.header("Data Analysis Dashboard")
+    st.header(":blue[Data Analysis Dashboard]")
     
     # Sample data for demo
     @st.cache_data
