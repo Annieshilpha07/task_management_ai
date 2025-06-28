@@ -6,9 +6,13 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 > An intelligent AI-powered system that automatically classifies tasks, predicts priorities, and optimizes workload distribution using advanced Machine Learning and Natural Language Processing techniques.
+---
 
+## 🔗 **Live App 👉 [Task Management AI System - Streamlit App](https://taskmanagementai-cqhfzxum6ap9jzsxbxa2jt.streamlit.app/)**
+*(Click the link to classify tasks, predict priorities, and explore workload distribution in real time.)*
+
+---
 ## 📋 Table of Contents
-
 -   ✨ Features
 -  🛠️ Technologies Used
 -   📊 Model Performance
@@ -52,29 +56,17 @@ Category
 
 Technologies
 
-**Language**
+**Language** -  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+**ML/AI** -  ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)![XGBoost](https://img.shields.io/badge/XGBoost-00ADD8?style=flat)
 
-**ML/AI**
+**NLP** -  ![NLTK](https://img.shields.io/badge/NLTK-4B8BBE?style=flat)
 
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)![XGBoost](https://img.shields.io/badge/XGBoost-00ADD8?style=flat)
+**Data** - ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 
-**NLP**
+**Visualization** -  ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat)![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat)
 
-![NLTK](https://img.shields.io/badge/NLTK-4B8BBE?style=flat)
-
-**Data**
-
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-
-**Visualization**
-
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat)![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat)
-
-**Frontend**
-
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+**Frontend** - ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
 ----------
 
@@ -82,117 +74,43 @@ Technologies
 
 ### 🏆  **Best Performing Model: XGBoost**
 
-Metric
 
-Score
+| **Metric**   | **Score** |
+|--------------|-----------|
+| Accuracy     | 93.2%     |
+| Precision    | 91.8%     |
+| Recall       | 92.5%     |
+| F1-Score     | 92.1%     |
 
-**Accuracy**
+---
 
-93.2%
+### 📈 **Model Comparison**
 
-**Precision**
-
-91.8%
-
-**Recall**
-
-92.5%
-
-**F1-Score**
-
-92.1%
-
-### 📈  **Model Comparison**
-
-Model
-
-Accuracy
-
-Training Time
-
-Features Used
-
-**XGBoost**
-
-93.2% ⭐
-
-2.3s
-
-TF-IDF + Engineered
-
-**Random Forest**
-
-89.7%
-
-1.8s
-
-TF-IDF + Word2Vec
-
-**SVM**
-
-87.4%
-
-3.1s
-
-TF-IDF
-
-**Naive Bayes**
-
-82.6%
-
-0.5s
-
-TF-IDF
-
-**Ensemble**
-
-91.8%
-
-4.2s
-
-All features
+| **Model**       | **Accuracy** | **Training Time** | **Features Used**          |
+|------------------|--------------|--------------------|-----------------------------|
+| **XGBoost**      | 93.2% ⭐     | 2.3s              | TF-IDF + Engineered         |
+| Random Forest    | 89.7%        | 1.8s              | TF-IDF + Word2Vec           |
+| SVM              | 87.4%        | 3.1s              | TF-IDF                      |
+| Naive Bayes      | 82.6%        | 0.5s              | TF-IDF                      |
+| Ensemble         | 91.8%        | 4.2s              | All Features Combined       |
 
 ----------
 ## 🤖 AI Models
 
-### 1.  **Naive Bayes Classifier**
 
--   **Purpose**: Text classification
--   **Accuracy**: 82.6%
--   **Best for**: Quick baseline classification
-
-### 2.  **Support Vector Machine (SVM)**
-
--   **Purpose**: Complex pattern recognition
--   **Accuracy**: 87.4%
--   **Best for**: High-dimensional data
-
-### 3.  **Random Forest**  🌟
-
--   **Purpose**: Priority prediction
--   **Accuracy**: 89.7%
--   **Features**: GridSearchCV optimization
--   **Best for**: Feature importance analysis
-
-### 4.  **XGBoost**  🏆
-
--   **Purpose**: Advanced classification & prediction
--   **Accuracy**: 93.2%
--   **Features**: Hyperparameter tuning
--   **Best for**: Production deployment
-
-### 5.  **Ensemble Model**
-
--   **Purpose**: Combined predictions
--   **Accuracy**: 91.8%
--   **Features**: Meta-learning approach
+| **Model**              | **Purpose**                          | **Accuracy** | **Features / Notes**                      | **Best For**                         |
+|------------------------|--------------------------------------|--------------|-------------------------------------------|--------------------------------------|
+| **Naive Bayes**        | Text classification                  | 82.6%        | TF-IDF features                            | Quick baseline classification        |
+| **SVM**                | Complex pattern recognition          | 87.4%        | TF-IDF on high-dimensional data            | High-dimensional input               |
+| **Random Forest** 🌟   | Priority prediction                  | 89.7%        | GridSearchCV optimization                  | Feature importance analysis          |
+| **XGBoost** 🏆         | Advanced classification & prediction | 93.2%        | Hyperparameter tuning                      | Production deployment                |
+| **Ensemble Model**     | Combined predictions                 | 91.8%        | Meta-learning approach                     | Robust prediction via model stacking |
 
 ----------
 
 ## 🤝 Contributing
 
 We welcome contributions! Please see our  [Contributing Guidelines](https://app.outlier.ai/playground/CONTRIBUTING.md)  for details.
-
 
 
 ----------
@@ -216,5 +134,12 @@ This project is licensed under the MIT License - see the  [LICENSE](https://app.
 **Your Name**  -  [shilpha127@gmail.com](mailto:your.email@example.com)
 
 **Project Link**:  [https://github.com/annieshilpha07/task_management_ai/tree/main](https://github.com/yourusername/task-management-ai)
+
+----------
+
+## ⭐ Star this repo if you found it helpful!
+
+👨‍💻 Made by [Shridayal Yadav](https://github.com/shridayal) & [Annieshilpha D](https://github.com/annieshilpha07)
+
 
 ----------
