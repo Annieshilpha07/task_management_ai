@@ -213,12 +213,8 @@ This project is licensed under the MIT License - see the  [LICENSE](https://app.
 
 ## 📞 Contact
 
-**Your Name**  -  [azad.yadav302@gmail.com](mailto:your.email@example.com)
+**Your Name**  -  [shilpha127@gmail.com](mailto:your.email@example.com)
 
-**Project Link**:  [https://github.com/shridayal/task_management_ai/tree/main](https://github.com/yourusername/task-management-ai)
+**Project Link**:  [https://github.com/annieshilpha07/task_management_ai/tree/main](https://github.com/yourusername/task-management-ai)
 
 ----------
-
-**⭐ Star this repo if you found it helpful!**
-
-Made with ❤️ by Shridayal Yadav
